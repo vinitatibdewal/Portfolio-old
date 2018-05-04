@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Vinita Tibdewal Portfolio</title>
+  <meta name="description" content="Personal portfolio developed for showcasing my work">
+  <meta name="author" content="Vinita Tibdewal">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+    
+<body>
+    
+<div class="row green" style=" margin-top: 10%; padding-bottom: 5%; padding-top: 5%;">
+    <div class="container">
+        <div class="four columns">
+            <img class="avatar" src="images/vinu1.jpg" />
+        </div>
+        <div class="eight columns">
+            <h2 class="bio"> Vinita Tibdewal </h2>
+            <p class="bio"> Hello!
+            I'm a designer and part-time coder.
+            I have completed my graduation in Computer Engineering from Maharashtra Institute of Technology, Pune. I've combined my interests in technology and design and thus I'm aiming to pursue Masters in Human Computer Interaction. I am passionate about the intersection of technology, design and business and would like to implement that in future. </p>
+        </div>
+    </div>
+</div> <!-- Row green ends -->
+    
+<div class="container main">
+    <div class="row" style="margin-bottom: 5%; margin-top: 5%;">
+        <div class="four columns portfolio">
+            <a href="page1.html"><img src="images/food.jpg" /></a>
+        </div>
+        <div class="four columns portfolio">
+            <a href="page2.html"><img src="images/digital.jpg" /></a>
+        </div>
+        <div class="four columns portfolio">
+            <a href="page3.html"><img src="images/paint.jpg" /></a>
+        </div>
+    </div>
+</div> <!-- Container ends -->
+    
+<footer>
+    <div class="container">
+    <div class="row twelve columns">
+        <ul class="social">
+            <li class="linkedin"><a href="https://www.linkedin.com/in/vinita-tibdewal" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="behance"><a href="https://www.behance.net/vinitatibdewal" target="_blank"><i class="fab fa-behance-square"></i></a></li>
+            <li class="google"><a href="mailto:vinitatibdewal@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+        </ul>    
+    </div>
+    </div>
+    <div class="container contact">
+    <div class="row twelve columns">
+        <i class="fas fa-globe"></i><p>Pune, Maharashtra</p>
+        <i class="fas fa-mobile-alt"></i><p>+91-8446416310</p>
+    </div>
+    </div>
+    <div class="row twelve columns">
+        <p class="copyright"> &copy; 2018 Vinita Tibdewal Portfolio. All Rights Reserved. </p>
+        </div>  
+</footer>    
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="scripts/jquery.magnific-popup.js"></script>
+    <script type="text/javascript">
+        // Initialize popup as usual
+$('.image-link').magnificPopup({
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});
+    </script>
+</body>
+</html>
