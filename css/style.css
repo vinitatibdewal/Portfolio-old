@@ -118,6 +118,10 @@ p.copyright{
     color: #666;
     font-size: 1em;
 }
+
+p{
+    color: #666;
+}
 /* Media Queries
 ---------------------------------------*/
 /* Larger than mobile */
