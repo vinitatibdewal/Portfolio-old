@@ -73,6 +73,11 @@ img.avatar{
 img:hover{
     opacity: 0.7;
 }
+figcaption {
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
 
 /* Footer
 ---------------------------------------*/
