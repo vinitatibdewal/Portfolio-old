@@ -20,7 +20,7 @@ body{
     font-family: 'Abel', sans-serif;
     font-size: 1.75em;
     color: #000;
-    background-color: #E5FFFA;
+    background-color: #f5fdff;
 }
 h2{
     font-family: 'Satisfy', cursive;
@@ -77,6 +77,16 @@ figcaption {
     color: #fff;
     padding: 3px;
     text-align: center;
+}
+
+div.polaroid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.shadowImageCaption {
+  padding: 10px;
 }
 
 /* Footer
